@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="robots" content="noindex, nofollow">
+    
+    <link rel="canonical" href="../play/">
+    <meta name="theme-color" content="#fbedbc">
+    
+    <title>Keeper Chaos Online Spinner &amp; Cards | Hour Time Games</title>
+    <meta name="description" content="Spin the spinner and draw paw cards for Keeper Chaos free in your browser — the official digital companion to the Hour Time Games board game.">
+    
+    <link rel="stylesheet" href="styles.css?v=ef731d69">
+    <style>.sr-only{clip:rect(0 0 0 0);white-space:nowrap;border:0;width:1px;height:1px;margin:-1px;padding:0;position:absolute;overflow:hidden}</style>
+    <body>
+        
+        <main>
+        <h1 class="sr-only">Keeper Chaos online spinner and cards</h1>
+        <div style = "width: 100vw; height: 100vh; position: fixed; top: 0px; left: 0px; z-index: 999">
+        
+
+        <div id="playfield_box" class="hidden">
+
+            
+            <div id="deck_box" class="hidden">
+
+                
+                <button id="reset_deck_btn">Restart deck</button>
+
+                
+                <button id="draw_btn" aria-label="Draw the top card"></button>
+                <p id="cards_left" role="status"></p>
+
+                <div class="placeholder left"></div>
+                <div class="placeholder right"></div>
+                
+                <span id="slot_label">Drawn card</span>
+
+
+                
+                <div id="popup_box" class="hidden" role="status" aria-live="polite">
+
+                    <div class="popup">
+
+                        <div id="popup_message"></div>
+                        <button id="play_again_btn">Restart deck</button>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+            
+            <div id="wheel_box" class="hidden" tabindex="0" role="button"
+                 aria-label="Spin the wheel">
+
+                <div id="wheel_arrow"></div>
+
+            </div>
+
+            
+            <div id="spin_result" role="status"></div>
+
+
+
+        </div>
+    
+
+
+        <div id="overlay_box" class="hidden">
+
+            
+            <div class="overlay"></div>
+
+        </div>
+
+
+
+        <script src="script.js?v=f622ba3c"></script>
+        </div>
+        
+        <a id="site_link" class="hidden" href="../play/">&larr; Hour Time Games</a>
+        <script>if(window.self===window.top){document.getElementById("site_link").classList.remove("hidden")}
+</script>
+        </main>
+    </body>
+
+</html>
